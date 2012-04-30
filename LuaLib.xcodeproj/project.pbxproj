@@ -63,10 +63,10 @@
 		0ABCC862154F1D6200CE5CC7 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCC82B154F1D6200CE5CC7 /* lzio.c */; };
 		0ABCC863154F1D6200CE5CC7 /* lzio.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCC82C154F1D6200CE5CC7 /* lzio.h */; };
 		0ABCC864154F1D6200CE5CC7 /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCC82D154F1D6200CE5CC7 /* print.c */; };
-		0ABCC86A154F1DB000CE5CC7 /* KKLua.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCC866154F1DB000CE5CC7 /* KKLua.h */; };
+		0ABCC86A154F1DB000CE5CC7 /* KKLua.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCC866154F1DB000CE5CC7 /* KKLua.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ABCC86B154F1DB000CE5CC7 /* KKLua.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCC867154F1DB000CE5CC7 /* KKLua.m */; };
-		0ABCC86C154F1DB000CE5CC7 /* kkLuaInitScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCC868154F1DB000CE5CC7 /* kkLuaInitScript.h */; };
-		0ABCC8F4154F1E0600CE5CC7 /* KKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCC8F1154F1E0600CE5CC7 /* KKConfig.h */; };
+		0ABCC86C154F1DB000CE5CC7 /* kkLuaInitScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCC868154F1DB000CE5CC7 /* kkLuaInitScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ABCC8F4154F1E0600CE5CC7 /* KKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCC8F1154F1E0600CE5CC7 /* KKConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ABCC8F5154F1E0600CE5CC7 /* KKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCC8F2154F1E0600CE5CC7 /* KKConfig.m */; };
 		0ABCC8F6154F1E0600CE5CC7 /* luawax.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCC8F3154F1E0600CE5CC7 /* luawax.h */; };
 /* End PBXBuildFile section */
@@ -275,6 +275,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABCC8F4154F1E0600CE5CC7 /* KKConfig.h in Headers */,
+				0ABCC86A154F1DB000CE5CC7 /* KKLua.h in Headers */,
+				0ABCC86C154F1DB000CE5CC7 /* kkLuaInitScript.h in Headers */,
 				0ABCC82F154F1D6200CE5CC7 /* lapi.h in Headers */,
 				0ABCC831154F1D6200CE5CC7 /* lauxlib.h in Headers */,
 				0ABCC834154F1D6200CE5CC7 /* lcode.h in Headers */,
@@ -298,9 +301,6 @@
 				0ABCC85F154F1D6200CE5CC7 /* lundump.h in Headers */,
 				0ABCC861154F1D6200CE5CC7 /* lvm.h in Headers */,
 				0ABCC863154F1D6200CE5CC7 /* lzio.h in Headers */,
-				0ABCC86A154F1DB000CE5CC7 /* KKLua.h in Headers */,
-				0ABCC86C154F1DB000CE5CC7 /* kkLuaInitScript.h in Headers */,
-				0ABCC8F4154F1E0600CE5CC7 /* KKConfig.h in Headers */,
 				0ABCC8F6154F1E0600CE5CC7 /* luawax.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +478,7 @@
 				0ABCC7EE154F1CBA00CE5CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
