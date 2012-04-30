@@ -447,6 +447,7 @@
 		};
 		0ABCC7ED154F1CBA00CE5CC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ABCCB0A154F2D9A00CE5CC7 /* Config.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/LuaLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -459,6 +460,7 @@
 		};
 		0ABCC7EE154F1CBA00CE5CC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ABCCB0A154F2D9A00CE5CC7 /* Config.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/LuaLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

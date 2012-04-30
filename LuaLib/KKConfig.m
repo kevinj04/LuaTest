@@ -157,9 +157,18 @@ static KKConfig *instanceOfConfig;
 	return number;
 }
 
+
 +(NSDictionary*) dictionaryForKey:(NSString*)key
 {
 	return [[KKConfig sharedConfig] dictionaryForKey:key];
+}
+
++(CGRect) rectForKey:(NSString *)key;
+{    
+    NSDictionary *rDictionary = [[KKConfig sharedConfig] dictionaryForKey:key];
+    CGRect r = CGRectMake([[rDictionary objectForKey:@"1"] floatValue], [[rDictionary objectForKey:@"2"] floatValue],
+                          [[rDictionary objectForKey:@"3"] floatValue], [[rDictionary objectForKey:@"4"] floatValue]);
+    return r;
 }
 
 +(NSString*) stringForKey:(NSString*)key

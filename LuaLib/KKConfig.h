@@ -7,6 +7,7 @@
 
 //#import "cocos2d.h"
 //#import "cocos2d-extensions.h"
+#import <UIKit/UIKit.h>
 
 /** Access to configuration values loaded from config.lua - individual branches of the configuration values tree (lua table) can be selected and traversed. */
 @interface KKConfig : NSObject
@@ -44,6 +45,8 @@
 +(int) intForKey:(NSString*)key;
 /** Get the bool (as int) from the currently selected key path. */
 +(BOOL) boolForKey:(NSString*)key;
+
++(CGRect) rectForKey:(NSString *)key;
 
 /** Directly sets the target's matching properties from the path in the config table. 
  Only float, int, BOOL or NSString properties are supported. 
