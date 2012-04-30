@@ -68,7 +68,7 @@
 		0ABCC86C154F1DB000CE5CC7 /* kkLuaInitScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCC868154F1DB000CE5CC7 /* kkLuaInitScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ABCC8F4154F1E0600CE5CC7 /* KKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCC8F1154F1E0600CE5CC7 /* KKConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ABCC8F5154F1E0600CE5CC7 /* KKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCC8F2154F1E0600CE5CC7 /* KKConfig.m */; };
-		0ABCC8F6154F1E0600CE5CC7 /* luawax.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCC8F3154F1E0600CE5CC7 /* luawax.h */; };
+		0ABCC8F6154F1E0600CE5CC7 /* luawax.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABCC8F3154F1E0600CE5CC7 /* luawax.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -287,6 +287,7 @@
 			files = (
 				0ABCC8F4154F1E0600CE5CC7 /* KKConfig.h in Headers */,
 				0ABCC86A154F1DB000CE5CC7 /* KKLua.h in Headers */,
+				0ABCC8F6154F1E0600CE5CC7 /* luawax.h in Headers */,
 				0ABCC86C154F1DB000CE5CC7 /* kkLuaInitScript.h in Headers */,
 				0ABCC82F154F1D6200CE5CC7 /* lapi.h in Headers */,
 				0ABCC831154F1D6200CE5CC7 /* lauxlib.h in Headers */,
@@ -311,7 +312,6 @@
 				0ABCC85F154F1D6200CE5CC7 /* lundump.h in Headers */,
 				0ABCC861154F1D6200CE5CC7 /* lvm.h in Headers */,
 				0ABCC863154F1D6200CE5CC7 /* lzio.h in Headers */,
-				0ABCC8F6154F1E0600CE5CC7 /* luawax.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
