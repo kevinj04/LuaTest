@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ABCC7E3154F1CBA00CE5CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABCC7E2154F1CBA00CE5CC7 /* Foundation.framework */; };
+		0ABCC7E9154F1CBA00CE5CC7 /* LuaLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCC7E8154F1CBA00CE5CC7 /* LuaLib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ABCC7DF154F1CBA00CE5CC7 /* libLuaLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLuaLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ABCC7E2154F1CBA00CE5CC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0ABCC7E6154F1CBA00CE5CC7 /* LuaLib-Prefix.pch */ = {isa = PBXFileReference; path = "LuaLib-Prefix.pch"; sourceTree = "<group>"; };
+		0ABCC7E7154F1CBA00CE5CC7 /* LuaLib.h */ = {isa = PBXFileReference; path = LuaLib.h; sourceTree = "<group>"; };
+		0ABCC7E8154F1CBA00CE5CC7 /* LuaLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuaLib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ABCC7DC154F1CBA00CE5CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABCC7E3154F1CBA00CE5CC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ABCC7D4154F1CBA00CE5CC7 = {
+			isa = PBXGroup;
+			children = (
+				0ABCC7E4154F1CBA00CE5CC7 /* LuaLib */,
+				0ABCC7E1154F1CBA00CE5CC7 /* Frameworks */,
+				0ABCC7E0154F1CBA00CE5CC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ABCC7E0154F1CBA00CE5CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCC7DF154F1CBA00CE5CC7 /* libLuaLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ABCC7E1154F1CBA00CE5CC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCC7E2154F1CBA00CE5CC7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0ABCC7E4154F1CBA00CE5CC7 /* LuaLib */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCC7E7154F1CBA00CE5CC7 /* LuaLib.h */,
+				0ABCC7E8154F1CBA00CE5CC7 /* LuaLib.m */,
+				0ABCC7E5154F1CBA00CE5CC7 /* Supporting Files */,
+			);
+			path = LuaLib;
+			sourceTree = "<group>";
+		};
+		0ABCC7E5154F1CBA00CE5CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCC7E6154F1CBA00CE5CC7 /* LuaLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0ABCC7DD154F1CBA00CE5CC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0ABCC7DE154F1CBA00CE5CC7 /* LuaLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ABCC7EC154F1CBA00CE5CC7 /* Build configuration list for PBXNativeTarget "LuaLib" */;
+			buildPhases = (
+				0ABCC7DB154F1CBA00CE5CC7 /* Sources */,
+				0ABCC7DC154F1CBA00CE5CC7 /* Frameworks */,
+				0ABCC7DD154F1CBA00CE5CC7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuaLib;
+			productName = LuaLib;
+			productReference = 0ABCC7DF154F1CBA00CE5CC7 /* libLuaLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ABCC7D6154F1CBA00CE5CC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0ABCC7D9154F1CBA00CE5CC7 /* Build configuration list for PBXProject "LuaLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0ABCC7D4154F1CBA00CE5CC7;
+			productRefGroup = 0ABCC7E0154F1CBA00CE5CC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ABCC7DE154F1CBA00CE5CC7 /* LuaLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ABCC7DB154F1CBA00CE5CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABCC7E9154F1CBA00CE5CC7 /* LuaLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0ABCC7EA154F1CBA00CE5CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0ABCC7EB154F1CBA00CE5CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ABCC7ED154F1CBA00CE5CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LuaLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LuaLib/LuaLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0ABCC7EE154F1CBA00CE5CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LuaLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LuaLib/LuaLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ABCC7D9154F1CBA00CE5CC7 /* Build configuration list for PBXProject "LuaLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABCC7EA154F1CBA00CE5CC7 /* Debug */,
+				0ABCC7EB154F1CBA00CE5CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ABCC7EC154F1CBA00CE5CC7 /* Build configuration list for PBXNativeTarget "LuaLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABCC7ED154F1CBA00CE5CC7 /* Debug */,
+				0ABCC7EE154F1CBA00CE5CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ABCC7D6154F1CBA00CE5CC7 /* Project object */;
+}
