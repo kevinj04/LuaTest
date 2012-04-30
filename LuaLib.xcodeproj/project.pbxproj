@@ -136,6 +136,7 @@
 		0ABCC8F1154F1E0600CE5CC7 /* KKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKConfig.h; sourceTree = "<group>"; };
 		0ABCC8F2154F1E0600CE5CC7 /* KKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKConfig.m; sourceTree = "<group>"; };
 		0ABCC8F3154F1E0600CE5CC7 /* luawax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luawax.h; sourceTree = "<group>"; };
+		0ABCCB0A154F2D9A00CE5CC7 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +179,7 @@
 		0ABCC7E4154F1CBA00CE5CC7 /* LuaLib */ = {
 			isa = PBXGroup;
 			children = (
+				0ABCCB09154F2D8B00CE5CC7 /* Config */,
 				0ABCC865154F1D6C00CE5CC7 /* kobold */,
 				0ABCC7EF154F1CD100CE5CC7 /* lua */,
 				0ABCC7E5154F1CBA00CE5CC7 /* Supporting Files */,
@@ -266,6 +268,14 @@
 				0ABCC868154F1DB000CE5CC7 /* kkLuaInitScript.h */,
 			);
 			name = kobold;
+			sourceTree = "<group>";
+		};
+		0ABCCB09154F2D8B00CE5CC7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCCB0A154F2D9A00CE5CC7 /* Config.xcconfig */,
+			);
+			name = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
