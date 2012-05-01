@@ -166,6 +166,7 @@ static KKConfig *instanceOfConfig;
 +(CGRect) rectForKey:(NSString *)key;
 {    
     NSDictionary *rDictionary = [[KKConfig sharedConfig] dictionaryForKey:key];
+    NSLog(@"key %@ -> %@", key, rDictionary);
     CGRect r = CGRectMake([[rDictionary objectForKey:@"1"] floatValue], [[rDictionary objectForKey:@"2"] floatValue],
                           [[rDictionary objectForKey:@"3"] floatValue], [[rDictionary objectForKey:@"4"] floatValue]);
     return r;
